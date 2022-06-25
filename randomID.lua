@@ -15,7 +15,7 @@ local function randomID(prefix , hyphen , maxchar)
     if not ( type(hyphen)  == "boolean" ) then hyphen  = false  end
     if not ( type(maxchar) == "number"  ) then maxchar = 16     end
 
-	local ID = prefix
+    local ID = prefix
     local char_luck
     local char_count
 
